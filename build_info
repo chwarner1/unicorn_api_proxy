@@ -10,7 +10,7 @@ phases:
       - pip install -r requirements.txt #install code dependencies
   build:
     commands:
-      - python tests_app.py -v #this will test the app works
+      #- python tests_app.py -v #this will test the app works
 artifacts:
   files:
     - '**/*'
